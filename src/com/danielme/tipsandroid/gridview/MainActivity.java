@@ -6,7 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.Gallery;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -22,7 +21,6 @@ import com.danieme.tipsandroid.gridview.R;
 public class MainActivity extends Activity {
 
 	ImageView imagenSeleccionada;
-	Gallery gallery;
 
 	@Override 
 	public void onCreate(Bundle savedInstanceState) 
